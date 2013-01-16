@@ -12,6 +12,8 @@ Wiki
 1. [TortoiseSVN](https://github.com/uretgec/my-depo/wiki/TortoiseSVN)
 2. [x webkit speech](https://github.com/uretgec/my-depo/wiki/x-webkit-speech)
 3. [Responsive Web](https://github.com/uretgec/my-depo/wiki/Responsive-Web)
+4. [Google Chrome Commands](https://github.com/uretgec/my-depo/wiki/Google-Chrome-Commands)
+5. [Kaynak Linkler](https://github.com/uretgec/my-depo/wiki/Kaynak-Linkler)
 
 URETGEC
 -----
