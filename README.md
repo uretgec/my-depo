@@ -14,7 +14,8 @@ Wiki
 3. [Responsive Web](https://github.com/uretgec/my-depo/wiki/Responsive-Web)
 4. [Google Chrome Commands](https://github.com/uretgec/my-depo/wiki/Google-Chrome-Commands)
 5. [Phonegap - Apache Cordova](https://github.com/uretgec/my-depo/wiki/Phonegap---Apache-Cordova)
-6. [Kaynak Linkler](https://github.com/uretgec/my-depo/wiki/Kaynak-Linkler)
+6. [XenServer ve XenCenter](https://github.com/uretgec/my-depo/wiki/Xen-Server---Desktop)
+7. [Kaynak Linkler](https://github.com/uretgec/my-depo/wiki/Kaynak-Linkler)
 
 URETGEC
 -----
