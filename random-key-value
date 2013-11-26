@@ -1,0 +1,36 @@
+<div id="c_a_r"></div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var SecBakalim = function(start,finish,selector){
+                var Popi = {
+                        'facebook'  : 'Facebook'
+                        , 'twitter'   : 'Twitter'
+                        , 'instagram' : 'Instagram'
+                        , 'obaraks'   : 'Obaraks'
+                        , 'oyna'      : 'Hemen Oyna'
+                        , 'tamindir'  : 'Tamindir'
+                    },
+                    Arttir = 1,
+                    ToplamPopi = 6,
+                    Secilmisler = [],
+                    Getir = {};
+
+                for (var i = start; i < finish; i++){
+                    var RakamUret = Math.floor((Math.random()*ToplamPopi)+1);
+                    if($.inArray(RakamUret,Secilmisler) !== -1) Secilmisler.push(Math.floor((Math.random()*ToplamPopi)+1));
+                    else Secilmisler.push(RakamUret);
+                }
+                //console.log(Secilmisler);
+                $.each(Popi,function(searchKey,searchName){
+                    if($.inArray(Arttir++,Secilmisler) !== -1)
+                        Getir[searchKey] = searchName;
+                });
+                //console.log(Getir);
+                var HtmlResult = $.map(Getir, function(sValue,sKey) {
+                    return '<a href="#'+sKey+'" onclick="">'+sValue+'</a>';
+                });
+                $("#c_a_r").html(HtmlResult.join(''));
+            };
+            SecBakalim(0,2);
+        });
+    </script>
